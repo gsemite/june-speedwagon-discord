@@ -1,0 +1,26 @@
+{
+	"name": "june-speedwagon-discord",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prettier": "prettier --write .",
+		"start": "nodemon --exec babel-node src/index"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.14.6",
+		"@babel/node": "^7.14.7",
+		"@babel/preset-env": "^7.14.7",
+		"discord.js": "^12.5.3",
+		"discord.js-commando": "^0.12.3",
+		"nodemon": "^2.0.9",
+		"prettier": "^2.3.2"
+	},
+	"dependencies": {
+		"mongoose": "^5.13.2"
+	}
+}
